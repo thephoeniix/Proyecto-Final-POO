@@ -14,9 +14,12 @@ Se puede crear y guardar datos:
 - Premios y guarda datos de Nombre del premio (string), Año (int) y Nominación. 
 
 # Casos de Prueba
-Si se elige la "Opción 1" se crea una pelicula y se le ingresa nombre (Spiderman), año (2019), duración (100) y ventas (20000000). IMPRIME: "Pelicula en estante: 0". se elige la "Opción 2" se imprime "Pelicula: 0    Titulo: Spiderman     Ano: 2019"
-Si se elige la "Opción 3" se imprime un menu que te dice "1. Crea actor    2. Crea extra    3. Crea Director" si se elige 1 se ingresa nombre (Tom), personaje (Spiderman), edad (20), se elige la "Opción 4" y se imprime un menu donde si se selecciona la opción 1 que lista a actores se imprime "Actor no.: 0   Actor: Tom  Perosnaje: Spiderman  Edad: 20"
-Si se elige "Opción 5" se imprime un menu que muestra si se quiere asignar el actor, director o extra a alguna pelicula, en este caso usaremos la oción uno y se asignara el actor, se imprime "Elige una pelicula por su numero: " se elige el 0 y ya se pide el numero de actor que se quiere asignar y se elige el 0. 
+**SE DEBEN DE CREAR AL MENOS UNA PERSONA DEL ELENCO Y UNA PELICULA PARA QUE EL PROGRAMA FUNCIONE CORRECTAMENTE SI ES QUE SE QUIEREN ASIGNAR A PELICULAS O PREMIOS**
+
+- Si se elige la "Opción 1" se crea una pelicula y se le ingresa nombre (Spiderman), año (2019), duración (100) y ventas (20000000). IMPRIME: "Pelicula en estante: 0". se elige la "Opción 2" se imprime "Pelicula: 0    Titulo: Spiderman     Ano: 2019"
+- Si se elige la "Opción 3" se imprime un menu que te dice "1. Crea actor    2. Crea extra    3. Crea Director" si se elige 1 se ingresa nombre (Tom), personaje (Spiderman), edad (20), se elige la "Opción 4" y se imprime un menu donde si se selecciona la opción 1 que lista a actores se imprime "Actor no.: 0   Actor: Tom  Perosnaje: Spiderman  Edad: 20"
+- Si se elige "Opción 5" se imprime un menu que muestra si se quiere asignar el actor, director o extra a alguna pelicula, en este caso usaremos la oción uno y se asignara el actor, se imprime "Elige una pelicula por su numero: " se elige el 0 y ya se pide "Elige un actor: " que se quiere asignar y se elige el 0. 
+- Si se elige "Opción 6" se imprime un menu que te pide a quien quieres adignar el premio en este caso se elige el 1 (a actor) se imprime "Nombre del premio: " Oscars y se imprime "Ano del premio: " 2020 y se imprime finalmente "Elige un actor: " 0 (Tom)
 
 # Consideraciones
 El programa solo corre en la consola y esta hecho con c++ standard por lo que corre en todos los sistemas operativos
